@@ -110,7 +110,12 @@ public class Room {
         }
         return allRooms.toString();
     }
-
+    public  int getRoomNumber() {
+        return roomNumber;
+    }
+    public ArrayList<ArrayList<RoomStatus>> getRoom() {
+        return rooms;
+    }
 
 }
 

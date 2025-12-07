@@ -1,7 +1,7 @@
 public enum RoomType {
-    SINGLE(10000,1),
-    DOUBLE(15000,2),
-    SUITE(25000,3);
+    SINGLE(10000,0),
+    DOUBLE(15000,1),
+    SUITE(25000,2);
 
 
     private int price;
